@@ -9,7 +9,7 @@
         makeDesktopItem,
       }: let
         pname = "fluxer";
-        version = "0.0.1";
+        version = "0.0.8";
 
         src = fetchurl {
           url = "https://api.fluxer.app/dl/desktop/stable/linux/x64/latest/appimage";
